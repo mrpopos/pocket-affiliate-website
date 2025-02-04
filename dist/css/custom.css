@@ -1,0 +1,32 @@
+html {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.hide-scrollbar {
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE和Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.list-how-to-works {
+  counter-reset: num;
+}
+
+.item-how-to-works {
+  counter-increment: num;
+}
+
+.define-number::before {
+  display: inline-block;
+  content: counter(num) "";
+  -webkit-text-stroke: .2rem #8ccef8;
+  color: #2563eb;
+  font-family: Montserrat,sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}

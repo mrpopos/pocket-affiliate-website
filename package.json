@@ -1,0 +1,18 @@
+{
+  "name": "affiliate-origin-website",
+  "version": "0.0.1",
+  "description": "AffiliateOrigin website",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --watch"
+  },
+  "keywords": [
+    "tailwind",
+    "website"
+  ],
+  "author": "mrpopos",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
