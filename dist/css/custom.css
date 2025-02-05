@@ -1,12 +1,11 @@
 html {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hide-scrollbar {
   overflow-y: scroll;
-  -ms-overflow-style: none;  /* IE和Edge */
-  scrollbar-width: none;     /* Firefox */
+  -ms-overflow-style: none; /* IE和Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .hide-scrollbar::-webkit-scrollbar {
@@ -24,9 +23,14 @@ html {
 .define-number::before {
   display: inline-block;
   content: counter(num) "";
-  -webkit-text-stroke: .2rem #8ccef8;
+  -webkit-text-stroke: 0.2rem #8ccef8;
   color: #2563eb;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-style: italic;
   font-weight: 700;
+}
+
+/* modal */
+.modal-container.is-hidden {
+  display: none;
 }

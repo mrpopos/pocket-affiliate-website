@@ -72,18 +72,11 @@ document.addEventListener("DOMContentLoaded", function () {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(formData),
+      body: JSON.stringify({ ...formData, companyName: formData.companyName || "-" }),
     })
       .then((response) => response.json())
       .then((data) => {
-        // console.log("Success:", data)
-        // window.alert("Thank you for your application! We will review it soon.")
-        const bool = window.confirm("Congratulations on your successful registration. Do you want to log in now?");
-        if (bool) {
-          window.location.href = "https://agent.affiliateorigin.com";
-        } else {
-          window.location.href = "index.html";
-        }
+        document.querySelector(".modal-container").classList.remove("is-hidden");
       })
       .catch((error) => console.error("Error:", error));
   }
