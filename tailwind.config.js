@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         layoutbgcolor: "#00081b",
         layouttextcolor: "#e9f2ff",
-      },
+      }
     },
     screens: {
       medefault: "0px",
