@@ -578,10 +578,6 @@ video {
   left: 0px;
 }
 
-.left-8 {
-  left: 2rem;
-}
-
 .right-0 {
   right: 0px;
 }
@@ -594,12 +590,12 @@ video {
   z-index: -20;
 }
 
-.z-20 {
-  z-index: 20;
-}
-
 .-z-30 {
   z-index: -30;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .col-start-1 {
@@ -714,24 +710,16 @@ video {
   height: 60px;
 }
 
+.h-\[70px\] {
+  height: 70px;
+}
+
 .h-auto {
   height: auto;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-\[84px\] {
-  height: 84px;
-}
-
-.h-\[64px\] {
-  height: 64px;
-}
-
-.h-\[70px\] {
-  height: 70px;
 }
 
 .min-h-10 {
@@ -742,28 +730,16 @@ video {
   width: 280px;
 }
 
+.w-\[64px\] {
+  width: 64px;
+}
+
 .w-\[95\%\] {
   width: 95%;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-\[80px\] {
-  width: 80px;
-}
-
-.w-\[60px\] {
-  width: 60px;
-}
-
-.w-\[65px\] {
-  width: 65px;
-}
-
-.w-\[64px\] {
-  width: 64px;
 }
 
 .max-w-\[1190px\] {
@@ -980,6 +956,12 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.from-purple-300 {
+  --tw-gradient-from: #d8b4fe var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(216 180 254 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .from-purple-700 {
   --tw-gradient-from: #7e22ce var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(126 34 206 / 0) var(--tw-gradient-to-position);
@@ -990,6 +972,16 @@ video {
   --tw-gradient-from: #020617 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(2 6 23 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-purple-400 {
+  --tw-gradient-from: #c084fc var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(192 132 252 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-blue-300 {
+  --tw-gradient-to: #93c5fd var(--tw-gradient-to-position);
 }
 
 .to-blue-700 {
@@ -1004,20 +996,12 @@ video {
   --tw-gradient-to: #1e293b var(--tw-gradient-to-position);
 }
 
-.to-orange-600 {
-  --tw-gradient-to: #ea580c var(--tw-gradient-to-position);
-}
-
-.to-blue-600 {
-  --tw-gradient-to: #2563eb var(--tw-gradient-to-position);
-}
-
-.to-blue-300 {
-  --tw-gradient-to: #93c5fd var(--tw-gradient-to-position);
-}
-
 .to-blue-400 {
   --tw-gradient-to: #60a5fa var(--tw-gradient-to-position);
+}
+
+.to-\[\#ffaf00\] {
+  --tw-gradient-to: #ffaf00 var(--tw-gradient-to-position);
 }
 
 .bg-clip-text {
